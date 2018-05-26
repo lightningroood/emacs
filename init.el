@@ -12,9 +12,9 @@
 (projectile-global-mode)
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
-(global-set-key (kbd "M-x") #'hlem-M-x)
-(global-set-key (kbd "C-x r b") #'hlem-filtered-bookmarks)
-(global-set-key (kbd "C-c C-f") #'hlem-find-files)
+(global-set-key (kbd "M-x") #'heml-M-x)
+(global-set-key (kbd "C-x r b") #'heml-filtered-bookmarks)
+(global-set-key (kbd "C-x C-f") #'heml-find-files)
 (helm-mode 1)
 
 
