@@ -11,6 +11,8 @@
 (package-initialize)
 (use-package helm-projectile
   :ensure t) ;; use-package needs to be installed in the first place
+(use-package smart-compile
+  :ensure t)
 (projectile-global-mode)
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
@@ -23,9 +25,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(jdee-server-dir "/home/lightningroood/.emacs.d/jdee-server")
  '(package-selected-packages
    (quote
-    (use-package company auto-complete magit helm-projectile))))
+    (jdee smart-compile use-package company auto-complete magit helm-projectile))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
