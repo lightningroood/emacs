@@ -13,8 +13,6 @@
   :ensure t) ;; use-package needs to be installed in the first place
 (use-package smart-compile
   :ensure t)
-(use-package jdee
-  :ensure t)
 (use-package magit
   :ensure t)
 (projectile-global-mode)
