@@ -25,10 +25,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (tango-dark)))
  '(jdee-server-dir "/home/lightningroood/.emacs.d/jdee-server")
+ '(magit-rebase-arguments nil)
  '(package-selected-packages
    (quote
-    (jdee smart-compile use-package company auto-complete magit helm-projectile))))
+    (yaml-mode jdee smart-compile use-package company auto-complete magit helm-projectile))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
